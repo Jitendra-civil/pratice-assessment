@@ -1,0 +1,89 @@
+body{
+    background-image: url(./BACKGROUND.jpg);
+}
+#background{
+    margin-top: 50px;
+    margin-left: 450px;
+    height: 600px;
+    width:600px;
+    border-radius: 50%;
+    background-color:rgb( 247, 229, 169);
+    position: absolute;
+}
+#flower{
+    width: 70px;
+    height: 70px;
+    margin-top: 60px;
+    margin-left:270px;
+    
+}
+#para{
+    color: rgb(22, 91, 22);
+    text-align: center;
+    font-size :25px; 
+    font-style: italic;
+    justify-content: space-around;
+    display: flex;
+}
+#p{
+    color:rgb(22, 91, 22);
+    font-size: 80px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+#date{
+    color:rgb(22, 91, 22) ;
+    font-size :28px; 
+    text-align: center;
+}
+#lastone{
+    color: rgb(22, 91, 22);
+    text-align: center;
+    font-size :24px; 
+  
+    justify-content: space-around;
+    margin-top: 20px;
+}
+@media only screen and (max-width:620px) and (min-width:320px)
+{body{
+    margin: 0%;
+    padding: 0%;
+}
+img{
+    width: 0;
+        height:0;
+        margin: 0;
+        justify-content: space-around;
+        top: 35%;
+}
+    #background{
+       
+        margin: 0;
+        text-align: center;
+        top: 35%;
+        justify-content: space-around;
+    }
+    #para{
+        width: auto;
+        height:auto;
+        margin: auto;
+        text-align: center;
+        top: 35%;
+    }
+    #p{
+        margin: auto;
+        text-align: center;
+        top: 35%;
+    }
+    #date{
+        margin: auto;
+        text-align: center;
+        top: 35%;
+    }
+    #lastone{
+        margin: auto;
+       text-align: center;
+        top: 35%;
+    }
+
+}
